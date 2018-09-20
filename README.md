@@ -19,7 +19,6 @@ web projects
  <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/coach/src/components/StartScreen.vue" >StartScreen </a> -	стартовый экран, приветствие и выбор режима</li>
     </ul>
     
-    </div>
 
 
 <div>
@@ -33,4 +32,4 @@ web projects
  
  <p>
     
-    </div>
+
