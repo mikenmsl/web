@@ -4,7 +4,7 @@ web projects
 <div>
  <div>
  <h2>
-        <a href="https://github.com/mikenmsl/web/tree/master/vueProject/coach" >coach VUE</a>
+        <a href="https://github.com/mikenmsl/web/tree/master/vueProject/coach" >coach (vue.js)</a>
     </h2>
   <h4><a href="http://zotov.mcdir.ru/index.html">Протестировать приложение</a></h4>
 <p><b> 
@@ -25,7 +25,7 @@ web projects
 <div>
  <div>
  <h2>
-        <a href="https://github.com/mikenmsl/web/blob/master/pars-proxy.py" >pars-proxy </a>
+        <a href="https://github.com/mikenmsl/web/blob/master/pars-proxy.py" >pars-proxy (python) </a>
     </h2>
 <p><b> 
 Парсинг IP адресов и портов с сайта, предоставляющий список открытых прокси. Скрипт обходит защиту <a href="https://www.cloudflare.com">CloudFlare </a> и импортирует данные в файл в виде <i>ip:port</i>
