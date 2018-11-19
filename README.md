@@ -14,7 +14,7 @@ web projects
  <li>Расширенный поиск в таблице источников по любым полям</li>
  <li>Создание, удаление и редактирование таблиц</li>
  <li>Гибкий парсинг информации</li>
- <li></li>
+ <li><scroll=схема БД>ddd</scroll></li>
 </ul>
  <ul><b>Компоненты: </b>
   <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/IPS/src/App.vue" >App.vue </a> -	родитель </li>
