@@ -16,7 +16,7 @@ web projects
  <li>Гибкий парсинг информации</li>
  <li><details>
 <summary>схема БД (нажать)</summary>
-  <p><img src="http://i.mcgl.ru/7g3GbKCf0y" alt=""></p>
+  <p><img src="http://i.mcgl.ru/HoRD9D6wjJ" alt=""></p>
 </details></li>
 </ul>
  <ul><b>Компоненты: </b>
