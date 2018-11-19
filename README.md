@@ -29,7 +29,7 @@ web projects
  <h2>
         <a href="https://github.com/mikenmsl/web/tree/master/vueProject/coach" >coach (vue.js)</a>
     </h2>
-  <h4><a href="http://zotov.mcdir.ru/index.html">Протестировать приложение</a></h4>
+  <h4><a href="http://zotov.mcdir.ru/coach/index.html">Протестировать приложение</a></h4>
 <p><b> 
  Математический тренажер, с возможностью тренировки сложения и умножения.
  </b></p>
