@@ -15,8 +15,15 @@ web projects
  <li>Создание, удаление и редактирование таблиц</li>
  <li>Гибкий парсинг информации</li>
  <li></li>
-
 </ul>
+ <ul><b>Компоненты: </b>
+  <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/IPS/src/App.vue" >App.vue </a> -	родитель </li>
+ <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/IPS/src/components/MainTableScreen.vue" >MainTableScreen.vue </a> -	интерфейс для работы с таблицей ресурсов</li>
+        <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/IPS/src/components/SourceTableScreen.vue" >SourceTableScreen.vue </a> -	интерфейс для работы с таблицей ссылкой (url)</li>
+ <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/IPS/src/components/ViewDate.vue" >ViewDate.vue </a> -	интерфейс для работы с данными и парсингом информации</li>
+ <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/IPS/src/ajax.php" >ajax.php </a> -	API функции для работы с базой данных </li>
+ <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/IPS/src/main.js" >main.js </a> -	регистрация компонентов vue</li>
+    </ul>
 <div>
  <div>
  <h2>
