@@ -58,12 +58,25 @@ web projects
     
 </details>
 
-<div>
- <div>
  <h2>
-        <a href="https://github.com/mikenmsl/web/blob/master/pars-proxy.py" >pars-proxy (python) </a>
+        <a href="https://github.com/mikenmsl/web/tree/master/vueProject/coach" >Верстка сайта Unique</a>
     </h2>
+  <h4><a href="http://zotov.mcdir.ru/site/unique/index.html">demo</a></h4>
   
+   <details>
+<summary>шаблон (jpeg)</summary> 
+  <p><img src="http://i.mcgl.ru/ZYJ2uttp8Y" alt=""></p>
+</details>
+  
+   <h2>
+        <a href="https://github.com/mikenmsl/web/tree/master/vueProject/coach" >Верстка сайта ZET</a>
+    </h2>
+  <h4><a href="http://zotov.mcdir.ru/site/ZET/index.html">demo</a></h4>
+  
+   <details>
+<summary>шаблон (jpeg)</summary> 
+  <p><img src="http://i.mcgl.ru/gqQ7m6o0jP" alt=""></p>
+</details>
 <p><b> 
 Парсинг IP адресов и портов с сайта, предоставляющий список открытых прокси. Скрипт обходит защиту <a href="https://www.cloudflare.com">CloudFlare </a> и импортирует данные в файл в виде <i>ip:port</i>
  </b></p>
