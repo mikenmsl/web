@@ -1,0 +1,685 @@
+@import "vars"
+@import "fonts"
+
+=keyframes($name)
+  @-webkit-keyframes #{$name}
+    @content
+  @-moz-keyframes #{$name}
+    @content
+  @-ms-keyframes #{$name}
+    @content
+  @keyframes #{$name}
+    @content
+
+
+
+html, body
+	height: 100%
+	padding: 0
+	margin: 0
+	font-size: 16px
+	scroll-behavior: smooth
+body
+	padding: 0
+	font-size: 1rem
+	min-width: 320px
+	position: relative
+	line-height: 1.65
+	font-family: 'Roboto', 'Open Sans', sans-serif
+	overflow-x: hidden
+  	margin: 0
+  	display: block
+
+
+h1, h2, h3, h4, h5, h6
+	padding: 0
+ 	margin: 0
+ 	font-style: normal
+	font-weight: normal
+a
+	outline: none
+	text-decoration: none
+	font-family: 'Roboto'
+
+.img-responsive 
+	display: block
+	max-width: 100%
+	height: auto
+
+.content
+	width: 1020px
+	margin: 0 auto
+
+.text-center
+	text-align: center
+	
+.btn
+	background-color: $text
+	
+	font-size: 1rem
+	font-family: 'Roboto:400'
+	font-weight: normal
+	padding: 17px 33px
+	border-radius: 3px
+	box-shadow: 2px 3px 5px $text
+	transition: 0.7s	
+.btn:hover
+	background-color: #b28627
+	box-shadow: 2px 3px 5px #585858
+	color: #c7c7c7
+	transition: 0.4s	
+.btn:active
+	box-shadow: 1px 1px 5px #585858
+
+.fa-paper-plane
+	transform: rotate(58deg)
+p
+	font-family: 'Roboto'
+img
+	margin: 0 auto
+
+
+
+/*-------------HEADER OPEN--------------*/
+header
+	height: 720px
+	background-color: $accent
+	.btn
+		background-color: $text
+		color: #fdfcfc
+.menu
+	display: grid
+	grid-template-columns: 26% 74%
+	grid-template-rows: 36px
+	height: 100px
+	align-content: end
+	transition: 0.25s
+	p
+		font-size: 20px
+	a
+		color: $text
+		text-transform: uppercase
+		font-family: 'Roboto:400'
+		font-weight: bold
+		font-size: 0.87rem
+		align-self: center
+		transition: 0.5s	
+	a:hover
+		background: radial-gradient(#FED16D, rgba(255,192,56,0.4))
+		color: #7d7d7d
+	.logo
+		a
+			font-weight: black
+			font-size: 1.62rem
+		span
+			color: #fdfcfc
+			padding: 3px 5px
+			border: solid 4px #fff200
+.logo
+	align-self: center
+	
+nav
+	#hamburger
+		display: none
+	ul
+		margin: 0
+		display: grid
+		grid-template-columns: repeat(7, 1fr)
+		text-align: center
+		align-self: center
+	li
+		list-style-type: none
+	
+.head
+	display: grid
+	margin-top: 50px
+	grid-template-columns: 38% 62%
+	grid-template-rows: 100%
+
+	h1
+		line-height: normal
+		color: #fdfcfc
+		font-size: 2.62rem
+		font-weight: bold
+	.description, .slider
+		align-self: center
+		p
+			font-weight: light
+			color: #fdfcfc
+			padding-bottom: 20px
+	
+
+
+.slid:before
+	display: block
+	content: " "
+	width: 100%
+	height: 55px
+	margin-left: -30%
+	background: url("../img/arrowOne.png") no-repeat center center
+	
+	
+.work
+	margin-top: 140px
+	display: grid
+	grid-template-columns: 1fr
+	grid-column-gap: 50px
+	font-family: 'Roboto'
+
+
+h2
+	color: #fdfcfc
+	margin: 0 auto
+	background-color: $text
+	font-weight: bold
+	border-radius: 4px
+	text-align: center
+	text-transform: uppercase
+	width: 200px
+	margin-bottom: 180px
+h2:after
+	display: block
+	position: absolute
+	content: " "
+	width: 80px
+	height: 115px
+	margin-left: 200px
+	margin-top: -20px
+	background: url("../img/arrow.png") no-repeat center center
+
+
+
+
+.worksheet
+	width: auto
+	height: 256px
+	display: grid
+	grid-template-columns: 50% 50%
+	grid-template-rows: 1fr 1fr 1fr
+	align-items: center
+	justify-items: start
+	margin-bottom: 50px
+	font-family: 'Roboto:700'
+	h3
+		margin: 0px
+		text-transform: uppercase
+		font-weight: bold
+		font-size: 1.12rem
+
+	img
+		grid-row-start: 1
+		grid-row-end: 4	
+		grid-column-start: 1
+		grid-column-end: 2
+.worksheet:nth-child(3)
+	img
+		grid-column-start: 2
+		grid-column-end: 3
+		
+.btn
+	text-transform: uppercase
+	background-color: $accent
+	font-family: 'OpenSans'
+	font-weight: bold
+	color: $text
+	font-size: 0.78rem
+
+
+.scheme
+	
+	padding-top: 80px
+	margin-top: 130px
+	background-image: url(../img/bg-scheme.png)
+
+	padding-bottom: 100px
+		
+	h2:after
+		transform: scale(-1, 1)
+		margin-left: -80px
+
+.features
+	margin-top: 130px
+	height: 690px
+
+.packages
+	padding-bottom: 100px
+	h2:after
+		transform: scale(-1, 1)
+		margin-left: -80px
+.price
+	display: grid
+	grid-template-columns: 33% 33% 33%
+	justify-content: center
+	align-content: center
+	
+	
+	
+.pack
+	display: grid
+	grid-template-columns: 1fr
+	
+	font-family: 'Roboto'
+	
+	align-content: end
+	align-items: center
+	text-align: center
+	justify-content: center
+	font-size: 1rem
+	font-weight: 400
+	height: 450px
+	position: relative
+	color: #b3b3b3
+	h4
+		justify-self: center
+		align-self: start
+		font-family: 'Roboto'
+		font-weight: 400
+		height: 110px
+		margin: 0
+		padding: 0
+		font-size: 1.4rem
+	a
+		display: block
+		width: 120px
+		font-size: 1rem
+		margin: 0 auto
+		align-self: center
+		color: #fff
+		background-color: #b3b3b3
+		text-transform: uppercase
+		margin-top: -4px
+		padding: 17px 50px
+		border-radius: 5px
+		box-shadow: 2px 3px 5px $text
+		transition: 0.9s
+	a:hover
+		background-color: #9a9a9a
+		color: $text	
+	li
+		list-style-type: none
+		border-bottom: 1px solid $accent
+		height: 45px
+	span
+		font-size: 2.2rem
+
+
+.pack:nth-child(2)
+	font-weight: 500
+	color: #363636
+	h4
+		line-height: normal
+		position: absolute
+		top: 0
+		font-size: 1.5rem
+		color: #f26c4f
+	a
+			
+		vertical-align: middle
+		font-size: 1.1rem
+		margin-top: -34px
+		margin-bottom: -60px
+		color: #fff
+		text-align: center	
+		background-color: #f26c4f
+		
+	span
+		font-size: 4.35rem
+
+	p
+		color: #f26c4f
+	a:hover
+		background-color: #ee4420
+		color: $text
+		
+.pack:nth-child(3)
+	h4, p
+		color: $accent
+	a
+		background-color: $accent
+	a:hover
+		background-color: #ff9f38
+		
+
+	
+.pack:nth-child(2):after
+	content: ""
+	background-color: $accent
+	width: 1px
+	height: 400px
+	position: absolute
+.pack:nth-child(2):before
+	content: ""
+	background-color: $accent
+	width: 1px
+	height: 400px
+	position: absolute
+	right: 0
+
+
+.history
+	.btn
+		width: 135px
+	img
+		background-color: #fff
+	margin-top: 180px
+	margin-bottom: 180px
+	padding: 60px 0
+	background-image: url(../img/bg-scheme.png)
+	h2
+		margin: 0
+	a
+		background-color: $accent
+		width: 108px
+	p
+		font-family: 'Roboto'
+	h2:after
+		display: none
+	.content
+		display: grid
+		grid-template-columns: 1fr 1fr
+		
+
+.our-history
+	display: inline-grid
+	
+	align-content: space-between
+
+.project
+	margin-bottom: 180px
+	h2
+		width: 420px
+	h2:after
+		margin-left: 420px
+
+.project_items
+	height: 600px
+	background-color: #f4f4f4
+	display: grid
+	grid-template-rows: 1fr 1fr
+	align-items: center
+	a
+		text-align: center
+
+
+
+
+
+.team
+	margin-bottom: 180px
+	h2
+		width: 360px
+	h2:after
+		margin-left: -80px
+		transform: scale(-1, 1)
+		
+
+.members
+	height: 270px
+	background-color: $accent
+	color: #f5f5f5
+	font-family: 'Roboto'
+	h5
+		font-size: 1rem
+		font-weight: 700
+		margin: 0
+		margin-top: 30px
+	span
+		font-weight: 200
+
+
+	.content
+		display: grid
+		grid-template-columns: repeat(5, 1fr)
+		grid-template-rows: 270px
+		align-items: center
+		text-align: center
+		
+
+.support
+	margin-bottom: 180px
+	h2
+		width: 360px
+	h2:after
+		margin-left: 360px
+	.info
+		display: grid
+		grid-template-columns: 1fr 1fr
+		align-items: center
+	img
+
+		grid-row-start: 1
+		grid-row-end: 3
+		grid-column-start: 2
+		grid-column-end: 3
+		
+	a
+		width: 115px 
+
+.hire
+	position: relative
+	display: grid
+	grid-template-columns: 1fr
+	margin-bottom: 180px
+	font-family: 'Roboto'
+	.btn
+		width: 100px
+		padding: 7px 14px
+		font-size: 1.25rem
+		font-weight: 400
+		background-color: #fff
+		justify-self: end
+		margin-right: 70px
+	img
+		width: 100%
+		z-index: 2
+	h2:after
+		display: none
+	h2
+		justify-self: start
+		padding-left: 70px
+		background: none
+		color: #fff
+		width: 310px
+		margin: 0
+	div
+		background-color: $accent
+		height: 90px
+		z-index: 5
+		display: grid
+		grid-template-columns: 1fr 1fr
+		align-items: center
+		text-align: center
+.hire:after
+	content: ''
+	position: absolute
+	width: 1020px
+	height: 530px
+	z-index: 4
+	background-color: rgba(255,192,56,.5)
+
+footer
+	height: 410px
+	background-color: #363636
+	font-family: 'Roboto'
+	h5
+		
+		color: #e6e9ed
+		font-size: 1.12rem
+		text-transform: uppercase
+		font-weight: 400
+		margin: 0
+		margin-bottom: 10px
+
+	li
+		list-style-type: none
+		a
+			color: #aab2bd
+			font-size: 1rem
+			font-weight: 200
+			transition: 0.25s
+	a:hover
+		color: $accent
+	.bottom
+		padding-top: 40px
+		display: grid
+		grid-template-columns: repeat(4, 1fr)
+.social
+	margin-top: 50px
+	text-align: center
+	.fa
+		font-size: 1rem
+		color: #e6e9ed
+		width: 27px
+	
+	a
+		margin-left: 3px
+		margin-right: 3px
+		background-color: $accent
+		padding: 4px 0
+		border-radius: 3px
+		
+		transition: 0.4s
+	a:hover
+		background-color: #ffcc5f
+		transition: 0.4s
+		i
+			color: #666666
+			transition: 0.4s
+
+
+// MENU TOGGLE
+.container 
+	width: 40px
+	height: 40px
+	position: fixed
+	display: flex
+	flex-direction: column
+	align-items: center
+	justify-content: center
+	right: 85px
+	top: 20px
+	display: none
+	cursor: pointer
+
+
+.stick 
+	width: 40px
+	height: 4px
+	border-radius: 2px
+	margin-bottom: 8px
+	background-color:  $text
+	display: inline-block
+
+
+.stick:last-child 
+	margin-bottom: 0px
+
+
+.stick-1.open 
+	animation: stick-1-open .6s ease-out forwards
+
+
+.stick-2.open 
+	animation: stick-2-open .6s linear forwards
+
+
+.stick-3.open 
+	animation: stick-3-open .6s linear forwards
+
+
++keyframes (stick-1-open) 
+	0%
+		width: 40px
+	40%
+		background-color: #ee4420
+		width: 4px 
+		transform: translate(20px, 0px)
+	75%, 80%
+		width: 4px 
+		transform: translate(20px, -25px) 
+		animation-timing-function: cubic-bezier(0,1,1,1)
+	100%
+		background-color: #ee4420
+		width: 4px 
+		transform: translate(17px, 22px)
+
++keyframes (stick-2-open) 
+	80%
+		background-color: $text 
+		transform: translate(0px, 0px) rotate(0deg)
+	100%
+		background-color: #ee4420
+		transform: translate(4px, 0px) rotate(40deg)
+
++keyframes (stick-3-open) 
+	80%
+		background-color: $text 
+		transform: translate(0px, 0px) rotate(0deg)
+	100%
+		background-color: #ee4420
+		transform: translate(8px, -12px) rotate(-40deg)
+
+.stick-1.close 
+	width: 4px 
+	transform: translate(14px, 13px)
+	animation: stick-1-close .6s ease-out forwards
+
+.stick-2.close 
+	transform: translate(0px, 0px) rotate(40deg)
+	animation: stick-2-close .6s ease-out forwards
+
+.stick-3.close 
+	transform: translate(0px, -12px) rotate(-40deg)
+	animation: stick-3-close .6s ease-out forwards
+
++keyframes (stick-1-close)
+	0%, 70%
+		width: 0px
+	100%
+		width: 40px 
+		transform: translate(0, 0)
+
++keyframes (stick-2-close)
+	0%   
+		background-color: #ee4420
+		width: 40px
+	20%  
+		background-color: #ee4420
+		width: 4px 
+		transform: translate(0, 0px) rotate(40deg)
+	40%  
+		background-color: $text 
+		width: 0px
+	65%  
+		transform: translate(0, -35px) 
+		animation-timing-function: cubic-bezier(0,1,1,1)
+	80%  
+		width: 0px
+	100% 
+		width: 40px 
+		transform: translate(0, 0px)
+
++keyframes (stick-3-close)
+	0%   
+		background-color: #ee4420
+		width: 40px
+	20%  
+		background-color: #ee4420
+		width: 4px 
+		transform: translate(0, -11px) rotate(-40deg)
+	40%  
+		background-color: $text
+	65%  
+		transform: translate(0, -46px) 
+		animation-timing-function: cubic-bezier(0,1,1,1)
+	90%  
+		width: 4px
+	100% 
+		width: 40px 
+		transform: translate(0, 0px)
+
+ 
+
+
+
+@import "media"  
