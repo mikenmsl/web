@@ -2,6 +2,9 @@
 web projects
 <h2> <a href="https://github.com/mikenmsl/web/tree/master/vueProject/IPS" >SPA - приложение vue.js</a></h2>
  <h4><a href="http://zotov.mcdir.ru/index.html">Протестировать приложение</a></h4>
+ <p><b> 
+ SPA - приложение (vue.js) для работы с ресурсами для парсинга и сохранения/обновления нужной информации <code>(vue, php, axios)</code>.
+ </b></p>
  <details>
 <summary>описание</summary>
  <p><b> 
@@ -36,6 +39,9 @@ web projects
         <a href="https://github.com/mikenmsl/web/tree/master/vueProject/coach" >coach (vue.js)</a>
     </h2>
   <h4><a href="http://zotov.mcdir.ru/coach/index.html">Протестировать приложение</a></h4>
+  <p><b> 
+ Математический тренажер, с возможностью тренировки сложения и умножения.
+ </b></p>
    <details>
 <summary>описание</summary>
 <p><b> 
@@ -57,13 +63,10 @@ web projects
  <h2>
         <a href="https://github.com/mikenmsl/web/blob/master/pars-proxy.py" >pars-proxy (python) </a>
     </h2>
-   <details>
-<summary>описание</summary>
+  
 <p><b> 
- 
 Парсинг IP адресов и портов с сайта, предоставляющий список открытых прокси. Скрипт обходит защиту <a href="https://www.cloudflare.com">CloudFlare </a> и импортирует данные в файл в виде <i>ip:port</i>
  </b></p>
  
  <p>
     
-</details>
