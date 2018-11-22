@@ -59,7 +59,7 @@ web projects
 </details>
 
  <h2>
-        <a href="https://github.com/mikenmsl/web/tree/master/vueProject/coach" >Верстка сайта Unique</a>
+        <a  >Верстка сайта Unique</a>
     </h2>
   <h4><a href="http://zotov.mcdir.ru/site/unique/index.html">demo</a></h4>
   
@@ -69,9 +69,9 @@ web projects
 </details>
   
    <h2>
-        <a href="https://github.com/mikenmsl/web/tree/master/vueProject/coach" >Верстка сайта ZET</a>
+        <a " >Верстка сайта ZET</a>
     </h2>
-  <h4><a href="http://zotov.mcdir.ru/site/ZET/index.html">demo</a></h4>
+  <h4><a href="http://zotov.mcdir.ru/site/zet/index.html">demo</a></h4>
   
    <details>
 <summary>шаблон (jpeg)</summary> 
