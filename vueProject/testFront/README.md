@@ -3,7 +3,7 @@
     </h2>
   <h4><a href="http://zotov.mcdir.ru/test/index.html">demo</a></h4>
   <p><b> 
- Тестовое 
+ Тестовое задание
  </b></p>
    <details>
 <summary>описание</summary>
@@ -16,6 +16,6 @@
  <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/testFront/src/components/ProductItem.vue" >ProductItem.vue </a> -	комнонент отвечающий за рендеринг продукта</li>
         <li> <a href="https://github.com/mikenmsl/web/blob/master/vueProject/testFront/dist" >dist </a> -	собранный vue</li>
     </ul>
-    Для сборки проекта необходим глобально установленный [code]vue-cli[/code], в консоли из директории проекта команды [code]npm i[/code] и [code]npm run build[/code]
+    Для сборки проекта необходим глобально установленный <code>vue-cli</code>, в консоли из директории проекта команды <code>npm i</code> и <code>npm run build</code>
     
 </details>
